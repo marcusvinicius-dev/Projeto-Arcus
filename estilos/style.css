@@ -151,3 +151,7 @@ body{
     color: #242424;
     font-size: 22px;
 }
+
+.conteudo-terceiro{
+    background-color: var(--cor07);
+}
