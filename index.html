@@ -8,6 +8,7 @@
     <title>Arcus Tecnologia</title>
     <link rel="shortcut icon" href="imagens/favicon_arcus.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper-bundle.min.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -29,12 +30,39 @@
                 <img class="conteudo-principal-imagem" src="imagens/busines.jpg" alt="Busines">
             </div>
         </section>
-        <section>
+        <section class="conteudo-secundario">
 
+            <div class="swiper mySwiper conteiner">
+                <div class="swiper-wrapper content">
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imagens/computador-gif.gif" alt="Gestão de Ponto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imagens/grafico-de-barras-gif.gif" alt="Gestão de Ponto">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </section>
     </main>
     <footer>
 
     </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

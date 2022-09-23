@@ -62,6 +62,7 @@ body{
 .conteudo-principal{
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+    height: 80vh;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -71,7 +72,7 @@ body{
 }
 .conteudo-principal-titulo{
     text-transform: capitalize;
-    font-size: 80px;
+    font-size: 100px;
     color: #1F3DA6;
 }
 
@@ -81,7 +82,7 @@ body{
 }
 
 .conteudo-principal-box-imagem{
-    width: 750px;
+    width: 950px;
 
     border-radius: 80px 300px 80px 300px;
     overflow: hidden;
@@ -91,7 +92,7 @@ body{
 
 }
 .conteudo-principal-imagem{
-    max-width: 750px;
+    max-width: 950px;
     
 
 }
