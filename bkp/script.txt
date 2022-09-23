@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
+<section class="conteudo-secundario">
+            <div class="conteudo-secundario-box">
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imagens/computador-gif.gif" alt="Gestão de Ponto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="imagens/grafico-de-barras-gif.gif" alt="Gestão de Ponto">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!--
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            -->
+        </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(" .mySwiper", {
+            slidesPerView:3,
+            spaceBetween:30,
+            slidesPerGroup:3,
+            loop: true,
+            loopFillGroupWithBlank:true,
+            pagination: {
+                el:".swiper-pagination",
+                prevEl:".swiper-button-prev"
+            }
+        }
+            
+        )
+    </script>
+

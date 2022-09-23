@@ -11,7 +11,6 @@
     --cor05: #000000;
     --cor06: #F1613A;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -93,6 +92,35 @@ body{
 }
 .conteudo-principal-imagem{
     max-width: 950px;
-    
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+
 
 }
+
+.conteudo-secundario-box-imagem{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.conteudo-secundario-imagem{
+    width: 100px;
+    height: 100px;
+    fill: #ffa500;
+    
+}
+img{
+    fill: #ffa500;
+}
+
+span{
+    font-size: 200px;
+}
+
