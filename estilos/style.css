@@ -29,6 +29,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
     padding: 20px 0px;
     background-color: var(--cor02);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.151);
@@ -53,46 +54,40 @@ body{
     text-decoration: underline;
 }
 
-
-.conteudo{
-    background-color: var(--cor02);
-    margin: 40px;
-    
-}
 .conteudo-principal{
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
-    height: 80vh;
-    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
+    background-color: var(--cor02);
+    border-radius: 20px;
+    height: 85vh;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+.conteudo-principal-escrito{
+    font-size: 5vh;
+    text-transform: capitalize;
+    overflow: hidden;
+
 }
 .conteudo-principal-titulo{
-    text-transform: capitalize;
-    font-size: 100px;
-    color: #1F3DA6;
+    color: #202124;
+    font-weight: 800;
 }
 
 .conteudo-principal-paragrafo{
-    font-size: 25px;
-    color: #1F3DA6;
-}
-
-.conteudo-principal-box-imagem{
-    width: 950px;
-
-    border-radius: 80px 300px 80px 300px;
-    overflow: hidden;
-    background-size: contain;
-    
-
+    font-weight: 400;
+    font-size: 3vh;
 
 }
+
 .conteudo-principal-imagem{
-    max-width: 950px;
+    border-radius: 100px 400px 100px 400px;
+    max-width: 1000px;
+    min-width: 400px;
 }
 
 
@@ -108,12 +103,13 @@ body{
 
 .conteudo-secundario-paragrafo-principal{
     display: block;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
     color: #e63c0e; /*#F1613A*/
-    margin: 80px;
+    margin: 40px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+    
     
 }
 
@@ -154,4 +150,46 @@ body{
 
 .conteudo-terceiro{
     background-color: var(--cor07);
+    width: 60vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    color: #242424;
+}
+.conteudo-terceiro-titulo{
+    font-size: 60px;
+    text-align: center;
+    text-size-adjust: ;
+    margin: 30px 0px;
+}
+.conteudo-terceiro-paragrafo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    margin-top: 30px;
+    padding: 30px;
+    background-image: linear-gradient(to left, #ff9c60, #ffd6b8);
+    color: #202124;
+    font-size: 22px;
+    text-decoration: none;
+}
+.rodape-contato-endereco-ancora{
+    color: #202124;
+}
+.rodape-contato-endereco-ancora:hover{
+    text-decoration: underline;
+}
+
+.rodape-contato-endereco-paragrafo{
+    padding: 3px;
 }
