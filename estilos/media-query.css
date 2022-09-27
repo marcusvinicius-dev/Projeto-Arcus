@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px) {
-
+    .cabecalho{
+        flex-direction: column;
+    }
+    .cabecalho-logo{
+        padding-bottom: 20px;
+    }
+    .conteudo-principal{
+        flex-direction: column;
+    }
+    .conteudo-principal-escrito{
+        font-size: 1em;
+        width: 500px;
+    }
+    .conteudo-principal-imagem{
+        width: 100%;
+    }
+    .conteudo-secundario{
+        flex-direction: column;
+    }
+    .conteudo-secundario-box-icone{
+        padding: 30px;
+    }
 }
